@@ -1,25 +1,6 @@
-21. No hay ninguna diferencia.
-
-26. 
-[1] pry(main)> puts x
-10
-=> nil
-[2] pry(main)> def hello
-[2] pry(main)*   puts "Hello world"
-[2] pry(main)* end  
-=> nil
-[3] pry(main)> hello
-Hello world
-=> nil
-[4] pry(main)> byebye
-bye bye world!!!
-=> nil
-[5] pry(main)> x = "changed"
-=> "changed"
-[6] pry(main)> exit
-program resumes here. Value of x is: changed.
-
-27.
+21.
 Cuando se ejecuta con pry, es como si se introdujese linea a linea todos los comandos del archivo en el pry.
 En cambio, ejecutandolo con ruby solo te aparece en pantalla la salida.
 
+27.
+No hay ninguna diferencia.
